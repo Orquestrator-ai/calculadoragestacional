@@ -1,0 +1,5 @@
+.gst-primeira-escolha { background:var(--calc-acento-suave,#e0ebe7); color:var(--calc-ink,#203233); }
+.gst-primeira-escolha > div { box-sizing:border-box; max-width:64rem; min-height:48px; margin:auto; padding:2px clamp(1rem,3.5vw,2rem); display:flex; align-items:center; flex-wrap:wrap; column-gap:.85rem; font:500 .94rem/1.35 system-ui,sans-serif; }
+.gst-primeira-escolha button { min-height:44px; padding:.4rem .2rem; background:none; border:0; color:var(--calc-acento,#145154); font:650 .94rem/1.35 system-ui,sans-serif; text-decoration:underline; text-underline-offset:.18em; cursor:pointer; }
+.gst-primeira-escolha button:focus-visible, section[aria-label="Aviso de cookies"]:focus-visible { outline:2px solid var(--calc-acento,#145154); outline-offset:-2px; }
+section[aria-label="Aviso de cookies"] button:nth-of-type(-n+2) { min-height:44px; border:1px solid var(--calc-muted,#5c6b6b); background:var(--calc-acento-suave,#e0ebe7); color:var(--calc-ink,#203233); }
